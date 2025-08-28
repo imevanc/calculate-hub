@@ -1,0 +1,52 @@
+{
+  "name": "nextjs-starter",
+  "version": "1.5.12",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "prettier:fix": "prettier --write \"./**/*.{ts,tsx}\"",
+    "prettier:check": "prettier --check \"./**/*.{ts,tsx}\"",
+    "test:type": "tsc --noEmit --skipLibCheck",
+    "test:unit": "jest",
+    "test:coverage": "jest --collectCoverage --",
+    "test:unit:watch": "jest --watch",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.1.2",
+    "@heroicons/react": "^2.1.5",
+    "next": "15.5.2",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@playwright/test": "^1.45.1",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.0",
+    "@types/react": "19.1.12",
+    "@types/react-dom": "19.1.8",
+    "@testing-library/jest-dom": "^6.4.1",
+    "@testing-library/react": "^16.0.0",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^22.0.0",
+    "husky": "^9.0.11",
+    "jest": "^30.0.0",
+    "jest-environment-jsdom": "^30.0.0",
+    "postcss": "^8",
+    "prettier": "3.6.2",
+    "semantic-release": "^24.1.0",
+    "tailwindcss": "^3.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5"
+  },
+  "overrides": {
+    "@types/react": "19.1.12",
+    "@types/react-dom": "19.1.8"
+  }
+}
