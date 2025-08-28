@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
+import { AppLayout, Footer, Header } from "@/components";
+import { ThemeProvider } from "@/providers";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Next.js starter",
-  description: "Next.js starter",
+  title: "CalculateHub",
+  description: "CalculateHub - Your Gateway to Online Calculators",
 };
 
 export default function RootLayout({
@@ -13,7 +15,11 @@ export default function RootLayout({
 }>) {
   return (
     <html>
-      <body>{children}</body>
+      <body>
+        <ThemeProvider>
+          <AppLayout>{children}</AppLayout>
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
