@@ -1,0 +1,96 @@
+import {
+  Circle,
+  Compass,
+  Hash,
+  Percent,
+  Triangle,
+  Variable,
+} from "lucide-react";
+
+export const CALCULATOR_CATEGORIES = [
+  {
+    title: "Percentage Calculators",
+    icon: Percent,
+    emoji: "💯",
+    description: "Calculate percentages, changes, and ratios with ease",
+    calculators: [
+      "Percentage Calculator",
+      "Percentage Change Calculator",
+      "Percentage Increase Calculator",
+      "Percentage Decrease Calculator",
+      "Fraction to Percent Calculator",
+      "Percent Error Calculator",
+    ],
+  },
+  {
+    title: "Algebra Calculators",
+    icon: Variable,
+    emoji: "🔡",
+    description:
+      "Solve equations, polynomials, and complex mathematical expressions",
+    calculators: [
+      "Quadratic Formula Calculator",
+      "Factoring Calculator",
+      "System of Equations Calculator",
+      "Polynomial Calculator",
+      "Complex Number Calculator",
+      "Discriminant Calculator",
+    ],
+  },
+  {
+    title: "Arithmetic Calculators",
+    icon: Hash,
+    emoji: "➗",
+    description: "Basic arithmetic operations and number theory calculations",
+    calculators: [
+      "Fraction Calculator",
+      "GCD Calculator",
+      "LCM Calculator",
+      "Prime Number Calculator",
+      "Square Root Calculator",
+      "Factorial Calculator",
+    ],
+  },
+  {
+    title: "Geometry Calculators",
+    icon: Compass,
+    emoji: "📐",
+    description: "Calculate areas, perimeters, and geometric properties",
+    calculators: [
+      "Area Calculator",
+      "Perimeter Calculator",
+      "Volume Calculator",
+      "Surface Area Calculator",
+      "Distance Calculator",
+      "Coordinate Calculator",
+    ],
+  },
+  {
+    title: "Triangle Calculators",
+    icon: Triangle,
+    emoji: "🔺",
+    description: "Solve triangles using various methods and theorems",
+    calculators: [
+      "Pythagorean Theorem Calculator",
+      "Right Triangle Calculator",
+      "Triangle Area Calculator",
+      "Law of Cosines Calculator",
+      "Triangle Angle Calculator",
+      "Hypotenuse Calculator",
+    ],
+  },
+  {
+    title: "Circle Calculators",
+    icon: Circle,
+    emoji: "⭕",
+    description: "Calculate circle properties, arcs, and sectors",
+    calculators: [
+      "Circle Area Calculator",
+      "Circumference Calculator",
+      "Arc Length Calculator",
+      "Sector Area Calculator",
+      "Circle Equation Calculator",
+      "Tangent Calculator",
+    ],
+  },
+];

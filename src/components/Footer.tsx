@@ -17,7 +17,7 @@ export const Footer = () => {
                 <Zap className="w-5 h-5 text-white" />
               </div>
               <span className="text-xl font-bold text-green-600">
-                ConvertHub
+                CalculateHub
               </span>
             </div>
             <p
@@ -28,28 +28,28 @@ export const Footer = () => {
           </div>
 
           <div>
-            <h3 className="font-semibold mb-4">Tools</h3>
+            <h3 className="font-semibold mb-4">Calculators</h3>
             <ul
               className={`space-y-2 ${isDarkMode ? "text-gray-400" : "text-gray-600"}`}
             >
               <li>
                 <a href="#" className="hover:text-green-600 transition-colors">
-                  PDF Converter
+                  Maths Converter
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-blue-600 transition-colors">
-                  Image Tools
+                  Chemistry Calculators
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-green-600 transition-colors">
-                  Video Converter
+                  Every Day Life Tools
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-blue-600 transition-colors">
-                  Audio Tools
+                  Finance Calculators
                 </a>
               </li>
             </ul>
