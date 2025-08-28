@@ -30,14 +30,14 @@ export default function MathsPage() {
                 ></div>
                 <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                     <h1 className="text-5xl md:text-7xl font-bold mb-6">
-                        Math <span className="text-green-600">Calculators</span>
+                        Maths <span className="text-green-600">Calculators</span>
                     </h1>
                     <p
                         className={`text-xl md:text-2xl mb-8 max-w-3xl mx-auto ${
                             isDarkMode ? "text-gray-300" : "text-gray-600"
                         }`}
                     >
-                        Math can be exciting and easier than you think! With our
+                        Maths can be exciting and easier than you think! With our
                         collection of math calculators, everyone can perform and
                         understand useful mathematical calculations in seconds.
                     </p>
