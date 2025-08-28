@@ -49,7 +49,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a href="#" className="hover:text-blue-600 transition-colors">
-                    Finance Calculators
+                  Finance Calculators
                 </a>
               </li>
             </ul>
