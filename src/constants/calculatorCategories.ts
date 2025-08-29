@@ -15,10 +15,9 @@ export const CALCULATOR_CATEGORIES = [
     description: "Calculate percentages, changes, and ratios with ease",
     calculators: [
       "Percentage Calculator",
-      "Percentage Change Calculator",
+      "Fraction to Percent Calculator",
       "Percentage Increase Calculator",
       "Percentage Decrease Calculator",
-      "Fraction to Percent Calculator",
       "Percent Error Calculator",
     ],
   },

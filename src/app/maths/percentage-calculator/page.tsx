@@ -1,5 +1,5 @@
 import React from "react";
-import { CalculatorTemplate, PercentageCalculator } from "@/components/";
+import { CalculatorTemplate, PercentageCalculator } from "@/components";
 import { PERCENTAGE_CALCULATOR } from "@/constants";
 
 export default function PercentagePage() {

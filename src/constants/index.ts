@@ -3,3 +3,4 @@ export { POPULAR_TOOLS } from "./popularTools";
 export { ERROR_CONTENT } from "./errorContent";
 export { CALCULATOR_CATEGORIES } from "./calculatorCategories";
 export { PERCENTAGE_CALCULATOR } from "./percentageCalculator";
+export { FRACTION_TO_PERCENTAGE } from "./fractionToPercentage";

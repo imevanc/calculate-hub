@@ -9,12 +9,13 @@ export const CalculatorHero = ({
   description: string;
   isDarkMode: boolean;
 }) => {
-  const [firstWord, secondWord] = title.split(" ");
-
+  const lastSpaceIndex = title.lastIndexOf(" ");
+  const mainTitle = title.substring(0, lastSpaceIndex);
+  const subtitle = title.substring(lastSpaceIndex + 1);
   return (
     <>
       <h1 className="text-4xl md:text-6xl font-bold mb-4">
-        {firstWord} <span className="text-green-600">{secondWord}</span>
+        {mainTitle} <span className="text-green-600">{subtitle}</span>
       </h1>
       <p
         className={`text-xl mb-6 max-w-3xl mx-auto ${isDarkMode ? "text-gray-300" : "text-gray-600"}`}
