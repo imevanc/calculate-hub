@@ -1,3 +1,24 @@
+# 1.0.0 (2025-08-29)
+
+
+### Bug Fixes
+
+* update links ([1a2523c](https://github.com/imevanc/calculate-hub/commit/1a2523cff8689824ee5199319f499d819b63bead))
+
+
+### Features
+
+* add maths fraction to perc section ([6aa2658](https://github.com/imevanc/calculate-hub/commit/6aa2658eff6500f22fef108fe70b4b606a2bc51b))
+* add maths landing page ([9c96db1](https://github.com/imevanc/calculate-hub/commit/9c96db163acfb2ec430b5d42e95478043aed5115))
+* add the maths percentage section ([0adb7c6](https://github.com/imevanc/calculate-hub/commit/0adb7c6de00aa449c23d18bb82bd8a0f4a2e16fc))
+* add the percentage copy deck ([1ae7642](https://github.com/imevanc/calculate-hub/commit/1ae76425726adcdbed29ea8cc04dd54d3d4c457c))
+* complete the calculatortemplate ([0beebc0](https://github.com/imevanc/calculate-hub/commit/0beebc02f671050a14f8f6bb1e983d2287f58ee9))
+* create the landing page ([fc1ef2f](https://github.com/imevanc/calculate-hub/commit/fc1ef2f819596fe3dad2173fff280c1655b65854))
+* housekeeeping ([5532146](https://github.com/imevanc/calculate-hub/commit/5532146aa455f6a48ae7afce687b8dd12b2c1e5f))
+* update header ([86329e4](https://github.com/imevanc/calculate-hub/commit/86329e40af0aa5b7b1e28a8b9519a228eba87f13))
+* update the pipeline ([4d6a327](https://github.com/imevanc/calculate-hub/commit/4d6a3276b66e7fb9e856634177c75d8e6dfa8f18))
+* update the pipeline ([1767eaf](https://github.com/imevanc/calculate-hub/commit/1767eaf6391dfabb0504c73bc92c492c4f7422bc))
+
 ## [1.5.12](https://github.com/imevanc/nextjs-starter/compare/v1.5.11...v1.5.12) (2025-08-27)
 
 
