@@ -262,7 +262,7 @@ export const PercentageCalculator = ({
                 : "bg-white border-gray-300 text-gray-900"
             }`}
           >
-            {calculatorCopy.calculationTypes.map((type) => (
+            {calculatorCopy.calculationTypes?.map((type) => (
               <option key={type.id} value={type.id}>
                 {type.name} - {type.description}
               </option>
