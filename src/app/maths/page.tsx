@@ -3,6 +3,7 @@ import { useState } from "react";
 import { CALCULATOR_CATEGORIES } from "@/constants";
 import { useTheme } from "@/hooks";
 import { Calculator } from "lucide-react";
+import Link from "next/link";
 
 export default function MathsPage() {
   const { theme } = useTheme();
@@ -128,7 +129,11 @@ export default function MathsPage() {
 
                   <div className="space-y-2 lg:space-y-3">
                     {category.calculators.slice(0, 6).map((calc) => (
-                      <div
+                      <Link
+                        href={`/maths/${calc
+                          .toLowerCase()
+                          .replace(/ & /g, "-")
+                          .replace(/ /g, "-")}`}
                         key={calc}
                         className={`flex items-center justify-between p-2 lg:p-3 rounded-lg transition-all duration-200 cursor-pointer group/item ${
                           isDarkMode ? "hover:bg-gray-800" : "hover:bg-gray-50"
@@ -142,7 +147,7 @@ export default function MathsPage() {
                           {calc}
                         </span>
                         <div className="w-2 h-2 rounded-full bg-green-600 opacity-60 group-hover/item:opacity-100 transition-opacity duration-200"></div>
-                      </div>
+                      </Link>
                     ))}
 
                     {category.calculators.length > 6 && (
